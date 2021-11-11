@@ -28,7 +28,11 @@ export const tree: TreeNode = {
             val: 2,
             left: {
                 val: 3,
-                left: null,
+                left: {
+                    val: 220,
+                    left: null,
+                    right: null
+                },
                 right: {
                     val: 0,
                     left: null,

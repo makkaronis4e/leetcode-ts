@@ -5,7 +5,6 @@ export function minSwaps(s: string): number {
         if (s[i] === "[") {
             count += 1;
         } else {
-            console.log(count);
             if (count > 0) {
                 count -= 1;
             } else {
