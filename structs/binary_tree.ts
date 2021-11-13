@@ -12,24 +12,24 @@ export class TreeNode {
 export const oneNodeTree: TreeNode = {val: 0, left: null, right: null};
 
 export const tree: TreeNode = {
-    val: 3,
+    val: 1,
     left: {
         val: 2,
         right: {
-            val: 2,
+            val: 3,
             left: null,
             right: {
-                val: 10,
+                val: 4,
                 left: null,
                 right: null
             }
         },
         left: {
-            val: 2,
+            val: 5,
             left: {
-                val: 3,
+                val: 6,
                 left: {
-                    val: 220,
+                    val: 7,
                     left: null,
                     right: null
                 },
