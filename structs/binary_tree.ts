@@ -1,7 +1,7 @@
 export class TreeNode {
     val: number
-    left: TreeNode | null
-    right: TreeNode | null
+    left?: TreeNode | null
+    right?: TreeNode | null
     constructor(val?: number, left?: TreeNode | null, right?: TreeNode | null) {
         this.val = (val===undefined ? 0 : val)
         this.left = (left===undefined ? null : left)
@@ -67,5 +67,68 @@ export const tree: TreeNode = {
             right: null
         }
     }
+};
+
+
+export const symmetricTree: TreeNode = {
+    val: 1,
+    left: {
+        val: 2,
+        right: {
+            val: 3,
+            left: null,
+            right: {
+                val: 4,
+                left: null,
+                right: null
+            }
+        },
+        left: {
+            val: 5,
+            left: {
+                val: 6,
+                left: {
+                    val: 7,
+                    left: null,
+                    right: null
+                },
+                right: {
+                    val: 0,
+                    left: null,
+                    right: null
+                }
+            },
+            right: null
+        }
+    },
+    right: {
+        val: 2,
+        left: {
+            val: 3,
+            right: null,
+            left: {
+                val: 4,
+                left: null,
+                right: null
+            }
+        },
+        right: {
+            val: 5,
+            right: {
+                val: 6,
+                right: {
+                    val: 7,
+                    left: null,
+                    right: null
+                },
+                left: {
+                    val: 0,
+                    left: null,
+                    right: null
+                }
+            },
+            left: null
+        }
+    },
 };
 
