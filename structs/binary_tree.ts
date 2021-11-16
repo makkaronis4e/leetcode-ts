@@ -19,7 +19,7 @@ export const tree: TreeNode = {
             val: 3,
             left: null,
             right: {
-                val: 4,
+                val: 55,
                 left: null,
                 right: null
             }
@@ -59,7 +59,7 @@ export const tree: TreeNode = {
                 val: 3,
                 left: null,
                 right: {
-                    val: 10,
+                    val: 0,
                     left: null,
                     right: null
                 }
