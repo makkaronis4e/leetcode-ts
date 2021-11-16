@@ -38,7 +38,7 @@ export const tree3: TreeNode = {
     }
 }
 
-Deno.test("501. Is tree symmetric", () => {
+Deno.test("101. Is tree symmetric", () => {
     assertEquals(isSymmetric(tree), false);
     assertEquals(isSymmetric(symmetricTree), true);
     assertEquals(isSymmetric(tree2), false);
